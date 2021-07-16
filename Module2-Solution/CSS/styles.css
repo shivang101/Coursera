@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merriweather:ital@1&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 55px;
+    color: #111010;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+@media (min-width:992px) {
+    .col-large4 {
+        float: left;
+    }
+    .col-large4 {
+        width: 33.33%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .col-medium-6,
+    .col-medium-12 {
+        float: left;
+    }
+    .col-medium-6 {
+        width: 50%;
+    }
+    .col-medium-12 {
+        width: 100%;
+    }
+    .col-medium-6 #name2 {
+        margin-left: -10px;
+    }
+}
+
+@media (min-width: 0px) and (max-width:766px) {
+    .small-12 {
+        float: left;
+    }
+    .small-12 {
+        width: 100%;
+    }
+}
+
+.content-name {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    text-align: center;
+    width: 145px;
+    padding: 5px;
+    float: right;
+    margin-bottom: 10px;
+    font-family: 'Kalam', cursive;
+    font-weight: 600;
+}
+
+.box {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+}
+
+.main-para {
+    clear: right;
+    overflow: none;
+}
+
+#name1 {
+    background-color: #FFB6C1;
+}
+
+#name2 {
+    color: white;
+    background-color: #FF0000;
+}
+
+#name3 {
+    background-color: #FFFF00;
+}
